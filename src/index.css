@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #131116;
+  --panel: rgba(18, 19, 24, 0.72);
+  --line: rgba(240, 227, 212, 0.12);
+  --ink: #f7f0e8;
+  --muted: #c2b8ac;
+  --muted-soft: #8f857b;
+  --accent: #ff8b4f;
+  --accent-warm: #ffc27a;
+  --panel-shadow: 0 26px 70px rgba(4, 6, 10, 0.28);
+  --display: "Avenir Next Condensed", "Arial Narrow", "Franklin Gothic Medium", sans-serif;
+  --body: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: var(--body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top, rgba(255, 205, 148, 0.08), transparent 28%),
+    linear-gradient(180deg, #221d1a 0%, #131116 52%, #0c1118 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
